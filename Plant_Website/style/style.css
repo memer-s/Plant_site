@@ -58,7 +58,7 @@ ul li {
 
 #hero_section {
     margin-top: 3.75rem;
-    background-image: url("style/img/banner.jpg");
+    background-image: url("./style/img/banner.jpg");
     background-size: cover;
     background-position: center bottom;
     height: 800px;
