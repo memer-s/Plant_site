@@ -91,6 +91,15 @@ ul li {
     flex-direction: row;
 }
 
+.revert_mobile {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 4rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
 .image_container {
     display: flex;
     min-width: 4rem;
