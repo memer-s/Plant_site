@@ -188,7 +188,7 @@ ul li {
 }
 
 #milan {
-    background-image: url("style/img/milan.jpg");
+    background-image: url("./style/img/milan.jpg");
     background-size: cover;
     opacity: 0.8;
     width: 20rem;
@@ -199,7 +199,7 @@ ul li {
 }
 
 #london {
-    background-image: url("style/img/london.jpg");
+    background-image: url("./style/img/london.jpg");
     background-size: cover;
     opacity: 0.7;
     width: 20rem;
@@ -210,7 +210,7 @@ ul li {
 }
 
 #dubai {
-    background-image: url("style/img/dubai.jpg");
+    background-image: url("./style/img/dubai.jpg");
     background-size: cover;
     opacity: 0.8;
     width: 20rem;
@@ -261,7 +261,7 @@ footer {
 
 #hero_section2 {
     margin-top: 3.75rem;
-    background-image: url("style/img/banner2.jpg");
+    background-image: url("./style/img/banner2.jpg");
     background-size: cover;
     background-position: center;
     height: 600px;
