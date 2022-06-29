@@ -1,0 +1,353 @@
+html {
+    font-size: 16px;
+    font-family: 'Roboto',Serif;
+    color: #4a4a4a;
+}
+
+/* Nav Bar */
+.navbar_container {
+    position: fixed;
+    background-color: #FFF;
+    height: 4.375rem;
+    width: 100%;
+    top:0;
+    border-bottom: 1px solid #4a4a4a;
+    z-index: 100;
+}
+
+div.navbar {
+    display: inline-flex;
+    position: fixed;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+    height: 4.375rem;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 3rem;
+}
+
+.links ul li a {
+    color: #4a4a4a;
+    font-size: 1.1rem;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+}
+
+.links ul li a:hover {
+    text-decoration: none;
+    background-color: #AFDEB6;
+}
+
+.links ul li a:active {
+    text-decoration: underline;
+    color: #000;
+}
+
+#logo img{
+    height: 4.375rem;
+    width: auto;
+    position: fixed;
+    top: 0;
+}
+
+/* Hero Section */
+
+#hero_section {
+    margin-top: 3.75rem;
+    background-image: url("/style/img/banner.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    height: 800px;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+}
+
+.banner {
+    color: #4a4a4a;
+    font-weight: 900;
+}
+
+.banner h1 {
+    font-size: 3.5rem;
+}
+
+.banner h2 {
+    font-size: 2.9rem;
+}
+
+/* Feature Section */
+
+.feature_container {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 4rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.image_container {
+    display: flex;
+    min-width: 4rem;
+    justify-content: center;
+}
+.image_container img {
+    height: 25rem;
+    width: auto;
+    border-radius: 15px;
+}
+
+.description {
+    max-width: 40rem;
+}
+
+.description h3 {
+    font-size: 2.5rem;
+}
+
+.description span {
+    font-size: 1.3rem;
+}
+
+/* Shops Section */
+
+.address_container {
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 6rem;
+}
+
+.address {
+    color: #FFFFFF;
+    width: 20rem;
+    height: 15rem;
+    border-radius: 15px;
+    min-width: 5rem;
+    margin: 2rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    background-color: black;
+}
+
+.address h3 {
+    margin-top: 3.75rem;
+}
+
+.address a {
+    color: #FFFFFF;
+}
+
+.button {
+    height: 3.5rem;
+    width: 11rem;
+    border: none;
+    border-radius: 15px;
+    background-color: #AFDEB6;
+    color: #4a4a4a;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button:hover {
+    color: #000000;
+    background-color: #AFDEB6;
+    cursor: pointer;
+}
+
+.button:active {
+    color: #000000;
+    background-color: #C5DBCC;
+    cursor: pointer;
+}
+
+.request {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 4rem;
+    justify-content: center;
+}
+
+#milan {
+    background-image: url("/style/img/milan.jpg");
+    background-size: cover;
+    opacity: 0.8;
+    width: 20rem;
+    height: 15rem;
+    border-radius: 15px;
+    min-width: 5rem;
+    padding-top: 1rem;
+}
+
+#london {
+    background-image: url("/style/img/london.jpg");
+    background-size: cover;
+    opacity: 0.7;
+    width: 20rem;
+    height: 15rem;
+    border-radius: 15px;
+    min-width: 5rem;
+    padding-top: 1rem;
+}
+
+#dubai {
+    background-image: url("/style/img/dubai.jpg");
+    background-size: cover;
+    opacity: 0.8;
+    width: 20rem;
+    height: 15rem;
+    border-radius: 15px;
+    min-width: 5rem;
+    padding-top: 1rem;
+}
+
+#milan a:hover {
+    text-decoration: none;
+}
+
+#london a:hover {
+    text-decoration: none;
+}
+
+#dubai a:hover {
+    text-decoration: none;
+}
+
+
+/* Footer Section */
+
+footer {
+    margin-top: 6rem;
+    color: #4a4a4a;
+    height: 11rem;
+    border-top: 1px solid #000000;
+}
+
+.italic {
+    font-style: italic;
+}
+.quote h4 {
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+.contacts {
+    margin: 4rem 0 0 1rem;
+    padding-bottom: 1rem;
+}
+
+/* About us section */
+
+#hero_section2 {
+    margin-top: 3.75rem;
+    background-image: url("/style/img/banner2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+}
+
+.banner {
+    color: #4a4a4a;
+    font-weight: 900;
+}
+
+.banner h1 {
+    font-size: 3.5rem;
+}
+
+.banner h2 {
+    font-size: 2.9rem;
+}
+
+/* Media queries */
+
+    /* Tablets */
+
+@media only screen and (max-width: 821px) {
+    .feature_container {
+        flex-direction: row-reverse;
+    }
+
+    .revert_mobile {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .image_container {
+        margin-top: 4rem;
+    }
+
+    .description {
+        text-align: center;
+    }
+
+}
+
+    /* Phones */
+
+@media only screen and (max-width: 480px) {
+    #logo {
+        display: flex;
+        justify-content: center;
+    }
+    ul {
+        padding: 0;
+        margin: 100px 0 0 0;
+    }
+
+    ul li {
+        margin-right: 0;
+        font-size: 0.5rem;
+    }
+
+    ul li a {
+        font-size: 1rem;
+        justify-content: center;
+        padding: 0;
+    }
+
+    a {
+        padding: 0 0!important;
+        margin: 0 0.5rem;
+    }
+
+    div.links {
+        text-align: center;
+    }
+
+    .navbar_container {
+        height: 8rem;
+    }
+
+    .links {
+        width: 100%;
+    }
+
+    .revert_mobile {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .image_container {
+        margin-top: 4rem;
+    }
+
+    .description {
+        text-align: center;
+    }
+}
